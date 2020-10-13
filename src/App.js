@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Game Of Life - Unit 5 Build Week
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Game of Life</h1>
+        <h2>Rules of the Game</h2>
+        <option></option> <button>Random Cell</button> <button>Start</button> <button>Stop</button> <button>Clear</button>
+        <h2>Generations: {'will be updated with running generation numbers'}</h2> 
+      </div>
+    );
+  }
 }
 
 export default App;
