@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        Game Of Life - Unit 5 Build Week
       </header>
     </div>
   );
