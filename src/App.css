@@ -1,38 +1,100 @@
-.App {
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black
+}
+
+.info {
+  /* width: 50%; */
+  padding-left: 8px;
+}
+
+.gameBoard {
+  display: flex;
+  border: 1px solid green;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid goldenrod
+}
+
+.submit {
+  width: 7em;
+  height: 3em;
+  border: 1px solid red
+}
+
+.gen {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.board {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 0px 11px 0px 19px;
+  border: 1px solid darkturquoise
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cellContainer{
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+/* .header {
   display: flex;
   flex-direction: column;
+  flex: 1;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid orangered
+} */
+
+
+
+/* .inner-header{
+  display: flex;
+  text-align: center;
+  width: 200px;
+  padding: 20px 20px 0 20px;
+  border: 1px solid green
+} */
+
+/* .label {
+  display: flex;
+  margin-bottom: 16px;
+  margin-right: 10px;
+  border: 1px solid blue
 }
 
-.App-link {
-  color: #61dafb;
-}
+.input {
+  margin-left: 5px;
+  border: 1px solid purple
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+/* .board {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  box-shadow: 0px 0px 20px white;
+  margin-top: 20px;
+  border: 1px solid royalblue
+} */
+
+
+
+
+

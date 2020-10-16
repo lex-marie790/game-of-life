@@ -1,21 +1,15 @@
-import { Dropdown, DropdownButton } from 'bootstrap';
 import React from 'react';
 import './App.css';
+import Grid from './components/grid.js'
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>Game of Life</h1>
-        <h2>Rules of the Game</h2>
-        <button>Random Cell</button> 
-        <button>Start</button> 
-        <button>Stop</button> 
-        <button>Clear</button>
-        <h2>Generations: {'will be updated with running generation numbers'}</h2> 
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <Grid />
+      </header>
+    </div>
+  );
 }
 
 export default App;
